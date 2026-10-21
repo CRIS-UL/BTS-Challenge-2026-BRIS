@@ -12,8 +12,11 @@ function includeHTML() {
         if (path === "" || path === "index.html") {
           document.getElementById("nav-home")?.classList.add("active");
         }
-        if (path === "documents.html") {
-          document.getElementById("nav-documents")?.classList.add("active");
+        if (path === "results.html") {
+          document.getElementById("nav-results")?.classList.add("active");
+        }
+        if (path === "pictures.html") {
+          document.getElementById("nav-pictures")?.classList.add("active");
         }
       });
   });
